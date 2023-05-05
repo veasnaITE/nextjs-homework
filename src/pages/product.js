@@ -51,7 +51,9 @@ function Product(){
   },[search])
 
   return (
+    
       <Layout home>
+        <div className="container">
           <DataTable
           title='Products'
           columns={columns}
@@ -68,7 +70,9 @@ function Product(){
               onChange={(e) => setSearch(e.target.value)}/>
           }
           />
+          </div>
       </Layout>
+      
   )
 }
 export default Product;

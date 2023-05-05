@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 const Navbar = () => {
     const router = useRouter();
     return (
-        <header className="bg-light m-b-1">
+        <header className="bg-light mb-2 mt-2">
         <nav class="navbar navbar-expand-lg bg-info-subtle ">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
