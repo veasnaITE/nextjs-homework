@@ -33,7 +33,7 @@ function Product(){
       name: "Action",
       cell: (row) => <>
       <button className='btn btn-primary' >Edit</button>
-      <button className='btn btn-danger m-s-2'>Update</button>
+      <button className='btn btn-danger ms-2'>Update</button>
       </>
 
     },
